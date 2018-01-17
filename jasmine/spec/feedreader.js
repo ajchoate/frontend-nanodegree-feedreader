@@ -31,7 +31,7 @@ $(function() {
             allFeeds.forEach(function(feed) {
                 expect(feed.url).toBeDefined();
                 expect(feed.url).not.toBe(0);
-            })
+            });
         });
 
         // Loop through each feed in allFeeds to check for a name
@@ -39,7 +39,7 @@ $(function() {
             allFeeds.forEach(function(feed) {
                 expect(feed.name).toBeDefined();
                 expect(feed.name).not.toBe(0);
-            })
+            });
         });
     });
 
